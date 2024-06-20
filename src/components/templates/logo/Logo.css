@@ -10,3 +10,7 @@ aside.logo img {
     margin-top: 10px;
     mix-blend-mode: multiply;
 }
+
+aside.logo .img-small {
+    width: 50%;
+}

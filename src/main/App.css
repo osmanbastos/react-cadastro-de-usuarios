@@ -52,3 +52,10 @@ main.content {
 footer.footer {
   grid-area: footer;
 }
+
+@media (max-width: 768px) {
+  :root {
+    --logo-height: 25px;
+    --aside-width: 50px;
+  }
+}

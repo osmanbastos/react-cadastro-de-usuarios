@@ -1,7 +1,9 @@
 import './Header.css'
 import React from 'react'
 
-export default props =>
-    <header className="header">
+const Header = props =>
+    <header className="header d-none d-sm-flex">
         Header
     </header>
+
+export default Header;

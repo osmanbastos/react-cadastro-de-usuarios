@@ -3,13 +3,12 @@ import React from 'react'
 import Header from '../header/Header'
 import UserForm from '../../UserForm'
 
-export default function Main() {
-  return (
+const Main = props => 
     <>
-      <Header />
+      <Header {...props} />
       <main className="content">
         <UserForm />
       </main>
     </>
-  )
-}
+
+export default Main;
